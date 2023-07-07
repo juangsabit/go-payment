@@ -1,0 +1,11 @@
+// import gorm (ORM) & driver postgres
+go get -u gorm.io/gorm gorm.io/driver/postgres
+
+// import gin (http handler)
+go get -u github.com/gin-gonic/gin
+
+// import jwt
+go get -u github.com/dgrijalva/jwt-go
+
+// import becrypt for jwt
+go get -u golang.org/x/crypto
